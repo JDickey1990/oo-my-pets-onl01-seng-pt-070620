@@ -64,8 +64,6 @@ def list_pets
      self.count
    "I have #{} dog(s), and #{} cat(s)."
    binding.pry
-end
-end
 end 
 
 
