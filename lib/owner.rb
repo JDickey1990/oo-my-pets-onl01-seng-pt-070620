@@ -63,7 +63,7 @@ class Owner
 def list_pets 
      dog_owner=dogs.each do |dog| dog.owner == self
          cat_owner=cats.each do |cat| cat.owner == self
-  puts "I have #{dog_owner.count} dog(s), and #{cat_owner.count} cat(s)."
+   "I have #{dog_owner.count} dog(s), and #{cat_owner.count} cat(s)."
 end
 end
 end 
