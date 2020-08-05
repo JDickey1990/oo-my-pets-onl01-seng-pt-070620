@@ -61,9 +61,9 @@ class Owner
   end
 
 def list_pets 
-     dog_owner=self.count.each do |dog| dog.owner == self
-         cat_owner=self.count.each do |cat| cat.owner == self
-   "I have #{dog_owner} dog(s), and #{cat_owner} cat(s)."
+     self.count
+   "I have #{} dog(s), and #{} cat(s)."
+   binding.pry
 end
 end
 end 
